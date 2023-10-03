@@ -156,9 +156,11 @@ const endQuiz = () => {
     const message = `<h3>You managed to get ${percentage.toFixed(
         0
     )}% scores</h3>`;
-    document.getElementById(
-        "box"
-    ).innerHTML = `<h3>Thankyou for playing the quiz</h3>
-    ${message}`;
+    document.getElementById("box").innerHTML = `
+    <div style="text-align:center">
+    <h3>Thankyou for playing the quiz</h3>
+    ${message}
+    <div/>
+    `;
 };
 loadQuestion();
