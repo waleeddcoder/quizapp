@@ -1,106 +1,130 @@
 const quizQuestions = [
     {
-        question: "What is the capital of France?",
-
-        a: "London",
-        b: "Berlin",
-        c: "Madrid",
-        d: "Paris",
-
-        correctAnswer: "d",
-    },
-    {
-        question: "Which planet is known as the Red Planet?",
-
-        a: "Mars",
-        b: "Venus",
-        c: "Jupiter",
-        d: "Saturn",
-
+        question:
+            "What is the capital of Eswatini (formerly known as Swaziland)?",
+        a: "Mbabane",
+        b: "Lobamba",
+        c: "Manzini",
+        d: "Hhohho",
         correctAnswer: "a",
     },
     {
-        question: "Which gas do plants absorb from the atmosphere?",
-
-        a: "Oxygen",
-        b: "Carbon Dioxide",
-        c: "Nitrogen",
-        d: "Hydrogen",
-
-        correctAnswer: "b",
-    },
-    {
-        question: "What is the largest mammal on Earth?",
-
-        a: "Elephant",
-        b: "Blue Whale",
-        c: "Giraffe",
-        d: "Lion",
-
-        correctAnswer: "b",
-    },
-    {
         question:
-            "Which famous scientist developed the theory of general relativity?",
-
-        a: "Isaac Newton",
-        b: "Niels Bohr",
-        c: "Albert Einstein",
-        d: "Galileo Galilei",
-
+            "Which planet is often referred to as the 'Morning Star' or 'Evening Star'?",
+        a: "Venus",
+        b: "Mars",
+        c: "Jupiter",
+        d: "Saturn",
+        correctAnswer: "a",
+    },
+    {
+        question: "In which year did the French Revolution begin?",
+        a: "1789",
+        b: "1799",
+        c: "1776",
+        d: "1804",
+        correctAnswer: "a",
+    },
+    {
+        question: "What is the smallest prime number?",
+        a: "0",
+        b: "1",
+        c: "2",
+        d: "3",
         correctAnswer: "c",
     },
     {
+        question:
+            "Which African country is known as the 'Land of a Thousand Hills'?",
+        a: "Kenya",
+        b: "Uganda",
+        c: "Rwanda",
+        d: "Tanzania",
+        correctAnswer: "c",
+    },
+    {
+        question:
+            "Who is the famous scientist known for his theory of general relativity?",
+        a: "Isaac Newton",
+        b: "Albert Einstein",
+        c: "Niels Bohr",
+        d: "Galileo Galilei",
+        correctAnswer: "b",
+    },
+    {
+        question: "What is the national flower of Japan?",
+        a: "Cherry Blossom",
+        b: "Lotus",
+        c: "Rose",
+        d: "Sunflower",
+        correctAnswer: "a",
+    },
+    {
         question: "What is the chemical symbol for the element gold?",
-
         a: "Go",
         b: "Gl",
         c: "Au",
         d: "Gd",
-
         correctAnswer: "c",
     },
     {
-        question: "Which country is known as the Land of the Rising Sun?",
-
-        a: "China",
-        b: "South Korea",
-        c: "Japan",
-        d: "Vietnam",
-
-        correctAnswer: "c",
-    },
-    {
-        question: "Which gas makes up the majority of Earth's atmosphere?",
-
-        a: "Oxygen",
-        b: "Carbon Dioxide",
-        c: "Nitrogen",
-        d: "Argon",
-
-        correctAnswer: "c",
-    },
-    {
-        question: "What is the largest organ in the human body?",
-
-        a: "Brain",
-        b: "Liver",
-        c: "Skin",
-        d: "Heart",
-
+        question: "Which gas is known as the 'Laughing Gas'?",
+        a: "Carbon Dioxide",
+        b: "Oxygen",
+        c: "Nitrous Oxide",
+        d: "Methane",
         correctAnswer: "c",
     },
     {
         question: "Who wrote the play 'Romeo and Juliet'?",
-
         a: "William Shakespeare",
         b: "Charles Dickens",
         c: "Jane Austen",
         d: "Leo Tolstoy",
-
         correctAnswer: "a",
     },
+    {
+        question: "What is the largest species of shark?",
+        a: "Great White Shark",
+        b: "Hammerhead Shark",
+        c: "Whale Shark",
+        d: "Tiger Shark",
+        correctAnswer: "c",
+    },
+    {
+        question: "In which year did the Titanic sink?",
+        a: "1912",
+        b: "1920",
+        c: "1907",
+        d: "1915",
+        correctAnswer: "a",
+    },
+    {
+        question: "Who composed the famous classical music piece 'Fur Elise'?",
+        a: "Ludwig van Beethoven",
+        b: "Wolfgang Amadeus Mozart",
+        c: "Johann Sebastian Bach",
+        d: "Franz Schubert",
+        correctAnswer: "a",
+    },
+    {
+        question: "What is the largest organ in the human body?",
+        a: "Brain",
+        b: "Liver",
+        c: "Skin",
+        d: "Heart",
+        correctAnswer: "c",
+    },
+    {
+        question: "What is the main component of Earth's core?",
+        a: "Nickel",
+        b: "Iron",
+        c: "Gold",
+        d: "Copper",
+        correctAnswer: "b",
+    },
 ];
+
 let index = 0;
 let total = quizQuestions.length;
 let right = 0,
