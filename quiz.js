@@ -160,6 +160,6 @@ const endQuiz = () => {
         "box"
     ).innerHTML = `<h3>Thankyou for playing the quiz</h3>
     ${message}
-    <h2>but no problem mona jaan i still love you so much</h2>`;
+    `;
 };
 loadQuestion();
