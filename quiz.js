@@ -159,7 +159,6 @@ const endQuiz = () => {
     document.getElementById(
         "box"
     ).innerHTML = `<h3>Thankyou for playing the quiz</h3>
-    ${message}
-    `;
+    ${message}`;
 };
 loadQuestion();
