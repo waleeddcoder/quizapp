@@ -182,7 +182,7 @@ const endQuiz = () => {
     )}% scores</h3>`;
     document.getElementById("box").innerHTML = `
     <div style="text-align:center">
-    <h3>Thankyou for playing the quiz</h3>
+    <h3>Quizicle Results are here and</h3>
     ${message}
     <div/>
     `;
